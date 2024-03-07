@@ -1,0 +1,175 @@
+* {
+  box-sizing: border-box;
+  font-family: "TildaSans";
+  margin: 0;
+}
+
+.header {
+  padding: 24px 0 46px 0;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 1080px;
+}
+
+.header__bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  z-index: -1;
+}
+
+.header__nav {
+  position: relative;
+  margin: 0 auto;
+  padding: 0 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__nav-block {
+  display: flex;
+  align-items: center;
+  column-gap: 30px;
+}
+
+.header__nav-link,
+.header__logo {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+}
+.header__logo {
+  text-transform: uppercase;
+  font-size: 24px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.header__promo {
+  margin: 0 auto;
+  margin-top: 425px;
+  width: fit-content;
+}
+
+.header__title {
+  color: #ffffff;
+  font-size: 72px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.header__descr {
+  margin-top: 42px;
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.button {
+  background-color: rgb(255, 190, 73);
+  border-radius: 9999px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  padding: 20px 60px;
+  border: none;
+  color: #ffffff;
+}
+
+.header__button {
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+.header__chevron {
+  position: absolute;
+  bottom: 46px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 38px;
+  height: 18px;
+}
+
+.services {
+  padding: 150px 0;
+}
+
+.title {
+  color: #000000;
+  text-align: center;
+  font-size: 42px;
+}
+
+.descr {
+  margin-top: 34px;
+  font-size: 24px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.services__advantages {
+  margin: 0 auto;
+  margin-top: 110px;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  width: 1100px;
+}
+
+.services__advantages-item {
+  width: 350px;
+}
+
+.services__advantages-item__img {
+  margin: 0 auto;
+  display: block;
+  width: 100px;
+  height: 100px;
+}
+
+.services__advantages-item__title {
+  color: #000000;
+  margin-top: 42px;
+  font-size: 18px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.services__advantages-item__descr {
+  margin-top: 25px;
+  color: #000000;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 21px;
+  text-align: center;
+}
+
+.about {
+  padding: 150px 0;
+  background-color: rgb(240, 240, 240);
+}
+
+.about__img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
+.about__descr {
+  margin: 0 auto;
+  margin-top: 63px;
+  width: 750px;
+  color: #000000;
+  font-size: 20px;
+  line-height: 31px;
+  font-weight: 300;
+  text-align: center;
+}
