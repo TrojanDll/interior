@@ -351,3 +351,52 @@
   font-size: 15px;
   font-weight: 300;
 }
+
+.contacts {
+  width: 100%;
+  background-color: rgb(240, 240, 240);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contacts__text {
+  padding-left: 90px;
+}
+
+.contacts__title {
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.contacts__data {
+  margin-top: 45px;
+  color: rgb(0, 0, 0);
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 36px;
+}
+
+.contacts__address {
+  margin-top: 35px;
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.contacts__links {
+  margin-top: 52px;
+  display: flex;
+  column-gap: 2px;
+}
+
+.contacts__link {
+  width: 30px;
+  height: 30px;
+}
+
+.contacts__link-img {
+  width: 100%;
+  height: 100%;
+}
